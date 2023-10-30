@@ -1,0 +1,69 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+.col-lg-4{
+    /*Getting rid of extra padding*/
+    padding:0px;
+}
+
+#title{
+    /*Text styles*/
+    font-family: cursive;
+    font-size: 2em;
+
+    /*Positioning of object*/
+    padding: 50px;
+    text-align: center;
+}
+.cont{
+    /*setting border around floating objects*/
+    overflow: hidden;
+
+    /*setting margin between containers*/
+    margin: 10px;
+
+    border: 3px solid black;
+    background-color: gray;
+}
+
+    .meal{
+        font-size: 1.25em;
+
+        /*Positioning*/
+        float: right;
+        clear:both;
+        text-align: center;
+
+        width: 33.3333%;
+        border: 1px solid black;
+    }
+
+    .description{
+        float:left;
+
+        color: black;
+        font-family: cursive;
+    }
+
+        #chicken{
+            font-family: cursive;
+            font-weight: bold;
+
+            background-color: palevioletred;
+        }
+        #beef{
+            font-family: cursive;
+            font-weight: bold;
+
+            color: white;
+            background-color: firebrick
+        }
+        #sushi{
+            font-family: cursive;
+            font-weight: bold;
+            background-color:bisque;
+        }
+
+
